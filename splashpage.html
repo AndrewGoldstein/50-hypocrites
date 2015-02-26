@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+	.state{
+		fill: none;
+		stroke: #a9a9a9;
+		stroke-width: 1;
+	}
+	.state:hover{
+		fill-opacity:0.5;
+	}
+	#tooltip {   
+		position: absolute;           
+		text-align: center;
+		padding: 20px;             
+		margin: 10px;
+		font: 12px sans-serif;        
+		background: lightsteelblue;   
+		border: 1px;      
+		border-radius: 2px;           
+		pointer-events: none;         
+	}
+	#tooltip h4{
+		margin:0;
+		font-size:14px;
+	}
+	#tooltip{
+		background:rgba(0,0,0,0.9);
+		border:1px solid grey;
+		border-radius:5px;
+		font-size:12px;
+		/*width:auto;*/
+		width:350px;
+		padding:4px;
+		color:white;
+		opacity:0;
+	}
+	#tooltip table{
+		table-layout:fixed;
+	}
+	#tooltip tr td{
+		padding:0;
+		margin:0;
+	}
+	#tooltip tr td:nth-child(1){
+		width:50px;
+	}
+	#tooltip tr td:nth-child(2){
+		text-align:center;
+	}
+</style>
+<body>
+<div id="tooltip" ></div><!-- div to hold tooltip. -->
+
+
+<center><h1>50 States. 50 Hypocrites. </h1></center>
+<center><h3> These Americans oppose executive action to help immigrants and yet they live in the USA because their ancestors benefited from gracious immigration policies.  </h3></center><center><h3 style='margin-top:-20px;'>Yeah. It doesn't make any sense to us either. </h3></center>
+<svg width="1160" height="600" id="statesvg" style="margin-left: 200px; margin-top: -5px;" ></svg> 
+
+
+<!-- svg to hold the map. -->
+
+<script src="states.js"></script> <!-- creates uStates. -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],l=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=l+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script>
+	var e = 0
+
+	function tooltipHtml(n, p){	/* function to create html content string in tooltip div. */
+		//var js,fjs = document.getElementsByTagName('script')[0];
+		//var l = /^http:/.test(document.location)?'http':'https';
+		//if(!document.getElementById('twitter-wjs')){js=document.createElement('script');js.id='twitter-wjs';js.src=l+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+		//var hello = 'https://twitter.com/intent/tweet?screen_name=johnboehner'
+		/*function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],l=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=l+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs')*/
+		
+
+
+		return   "<h4>"+(p.peo)+"</h4><img src='"+(p.image)+"' style='width:200px'>"+"<table>"+
+			"<tr><td>Profession:</td><td>"+(p.prof)+"</td></tr>"+
+			"<tr><td>State:</td><td>"+(p.quote)+"</td></tr>"+
+			"<tr><td>Heritage:</td><td>"+(p.desc)+"</td></tr></table>"+ "<a href='https://twitter.com/intent/tweet?screen_name=goldstein_andr' class='twitter-mention-button' data-related='goldstein_andr'>Tweet to @DanaRohrabacher </a>" 
+			//+ "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+		}
+
+	var people = [" John Boehner "," Ted Cruz "," Michelle Bachmann "," Mark Krikorian "," Susana Martinez "," George Borjas "," Joe Arpaio "," Dana Rohrabacher "," Peter Brimelow "," Phyllis Schafly "," Tom Tancredo "," John Tanton "," Bobby Jindil "," Virginia Abernethy "," Steven Palazzo "," Lou Barletta "," Jeff Sessions "," Rick Santelli "," Brian Sandoval "," Lisa Murkowski "," John Thune ","  "," Sam Brownback "," John Barasso "," John Derbyshire "," Virginia Foxx (palmeri) "," Bob Goodlatte "," Michael Burgess ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "," Mark Krikorian ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "]
+
+	var images = ["images/John_Boehner.jpg ","images/Ted_Cruz.jpg","images/Michele_Bachmann.jpg","images/Mark_Krikorian.jpg","images/Susana_Martinez.jpg","images/George_Borjas.jpg","images/Joe_Arpaio.jpg","images/Dana_Rohrabacher.jpg","images/Peter_Brimelow.jpg","images/Phyllis_Schafly.jpg","images/Tom_Tancredo.jpg","images/John_Tanton.jpg","images/Bobby_Jindil.jpg","images/Virginia_Abernethy.jpg","images/Steven_Palazzo.jpg","images/Lou_Barletta.jpg","images/Jeff_Sessions.jpg","images/Rick_Santelli.jpg","images/Brian_Sandoval.jpg","images/Lisa Murkowski","images/John_Thune.jpg","  ","images/Sam_Brownback.jpg","images/John_Barrasso.jpg","images/John_Derbyshire.jpg","images/Virginia_Foxx.jpg","images/Bob_Goodlatte.jpg","images/Michael_Burgess.jpg","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "]
+
+	var states_names = [' Ohio ',' Florida ',' Minnesota ',' DC? ',' New Mexico ',' Massachusetts ','Arpaio has repeatedly racially targeted Latinos with years of abuses conducted under the shelter of Arizona\'s immigration law, including illegal stops, searches and arrests that provoked widespread fear among immigrants.',' California ',' Connecticut ',' Missouri ',' Colorado ',' Michigan ',' Louisiana ',' Tennessee ',' Mississippi ',' Pennsylvania ',' California ',' Alabama ',' Illinois ',' Nevada ',' Alaska ',' South Dakota ',' North Dakota ',' Kansas ',' Wyoming ',' New York ',' North Carolina ',' Virginia ',' Texas ',' Georgia ',' Indiana ',' Arkansas ',' Rhode Island ',' South Carolina ',' Hawaii ',' Washington ',' Oregon ',' Idaho ',' Montana ',' Kentucky ',' Maryland ',' Delaware ',' New Jersey ',' Oklahoma ',' Nebraska ',' Utah ',' West Virginia ',' Maine ',' Vermont ',' New Hampshre ',' Wisconsin ',' Iowa ','  ','  ','  ']
+
+	var states_names = [" Ohio "," Florida "," Minnesota "," DC "," New Mexico "," Massachusetts "," Arizona "," California "," Connecticut "," Missouri "," Colorado "," Michigan "," Louisiana "," Tennessee "," Mississippi "," Pennsylvania "," Alabama "," Illinois "," Nevada "," Alaska "," South Dakota "," North Dakota "," Kansas "," Wyoming "," New York "," North Carolina "," Virginia "," Texas "," Georgia "," Indiana "," Arkansas "," Rhode Island "," South Carolina "," Hawaii "," Washington "," Oregon "," Idaho "," Montana "," Kentucky "," Maryland "," Delaware "," New Jersey "," Oklahoma "," Nebraska "," Utah "," W Virginia "," Maine "," Vermont "," New Hampshire "," Wisconsin "," Iowa "]
+
+	var professions = [" US House of Representatives "," US House of Representatives "," US House of Representatives "," Executive director of the Center for Immigration Studies, a think-tank in Maryland that promotes stricter immigration control and enforcement "," Governor of New Mexico "," Professor of Economics and Social Policy at the Harvard Kennedy School "," Sheriff of Maricopa County, Arizona "," US House of Representatives "," Writer "," Activist "," Formerly in US House of Representatives, Colorado Gubernatorial Candidate 2014 "," Activist "," Governor of Louisiana "," Professor Emerita at Vanderbilt University best known for work on population demography and for being a white separatist "," US House of Representatives "," US House of Representatives "," US Senate "," CNBC Commentator "," Governor of Nevada "," US Senate "," US Senate ","  "," Governor of Kansas "," US Senate "," Writer ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "," Executive director of the Center for Immigration Studies, a think-tank that promotes stricter immigration control and enforcement ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "]
+
+	var descriptions = [" Boehner is of German descent "," Cruz was born in Canada and immigrated to USA in _____ "," Bachmann is of Norweigan descent "," Krikorian was born in Armenia and immigrated to USA in ____ "," Martinez's grandparents immigrated from Mexico "," Borjas was born in Cuba and immigrated to USA "," Arpaio's parents imigrated from Italy "," Rohrabacher is of German descent "," Brimelow was born in England and immigrated to USA in ____ "," Great-Grandfather immigrated from England "," All 4 grandparents immigrated from Italy "," Father immigrated from Canada and Grandfather immigrated from Germany "," Parents immigrated from India "," Abernathy was born in Cuba and immigrated to USA in ____ "," Palazzo is of Italian descent "," Barletta is of Italian descent "," Sessions is of English, Scottish, and Irish descent "," Santelli is of Italian descent "," Sandoval is of Mexican descent "," Murkowski is of Polish, Irish, and French Canadian descent ","  ","  "," Brownback is of German descent ","  "," Derbyshire immigrated from England and his wife immigrated from China "," D "," D "," D "," D "," D "," D "," D "," D "," D "," D "," D "," D "," D ","  "," Krikorian was born in Armenia and immigrated to USA in ____ ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "]
+		
+
+	var data ={};	
+	
+
+	
+	["OH", "FL", "MN", "DC", "NM", "MA", "AZ", "CA", "CT", "MO", "CO", "MI", "LS", "TN", "MS", "PA", "AL", "IL", "NV", "AK", "SD", "ND", "KS", "WY", "NY", "NC", "VA", "TX", "GA", "IN", "AR", "RI", "SC", "HI", "WA", "OR", "ID", "MT", "KY", "MD", "DE", "NJ", "OK", "NE", "UT", "WV", "ME", "VT", "NH", "WI", "IA"]
+		.forEach(function(p){ 
+			var random = Math.round(100*Math.random());
+			
+			data[p]={peo:people[e], desc:descriptions[e], image:images[e], quote:states_names[e],
+					prof:professions[e], color:d3.interpolate("#FF0000", "#0000FF")(random/100)}; 
+			e = e+1;
+		});
+	
+	/* draw states on id #statesvg */	
+	states.draw("#statesvg", data, tooltipHtml);
+</script>
+
+<a href='https://twitter.com/intent/tweet?screen_name=goldstein_andr' style='position: absolute; margin-left:100px; margin-top:50px;' class='twitter-mention-button' data-related='goldstein_andr'>Tweet to @goldstein_andr </a> 
+
+</body>
