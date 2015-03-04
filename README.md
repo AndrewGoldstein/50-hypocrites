@@ -18,3 +18,7 @@ We don't have enough hypocrites yet!
 
 * Check out the [Google doc](https://docs.google.com/spreadsheets/d/1J3BOpC8hWpBVPhE-Gz5y4VPPpc0vYJaDDV5HY7osvsA/edit)
 * Find a state without a representative, research an immigration opponent in that state, and fill it in
+
+
+![prototype1](https://raw.github.com/AndrewGoldstein/50-hypocrites/master/images/2_8_2015_prototype1.png)
+![prototype2](https://raw.github.com/AndrewGoldstein/50-hypocrites/master/images/2_8_2015_prototype2.png)
