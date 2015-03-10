@@ -1,0 +1,115 @@
+body {
+    background: #CDE1EF;
+}
+
+#state-modal h4 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.main-header {
+    font-size:300%;
+}
+.intro-content {
+    width: 900px;
+    margin: auto;
+}
+.intro-content p {
+    font-size: 20px;
+    line-height:22px;
+    color :#34495e;
+}
+
+#subtext {
+    color: #3498db;
+}
+
+#state-modal {
+    /*background: rgba(0, 0, 0, 0.9);*/
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 12px;
+    
+    /*width:auto;*/
+    width: 300px;
+    max-width: 300px;
+    padding: 4px;
+    color: white;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    margin: 10px;
+    font: 12px sans-serif;
+    background: #1B364F;
+    z-index: 999999;
+    /*pointer-events: none;*/
+}
+
+
+#statesvg {
+    display: block;
+    margin-left:auto; 
+    margin-right: auto; 
+}
+/* if larger than */
+@media (min-width: 1200px){
+    #statesvg{
+        padding-left: 150px;
+    }
+}
+
+.state {
+    fill: none;
+    stroke: #a9a9a9;
+    stroke-width: 1;
+    cursor: hand; cursor: pointer;
+}
+
+.state:hover {
+    fill-opacity: 0.3;
+}
+
+.modal-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* @AY, Table styling, convert this all to bootstrap/row columns */
+
+#table-content {
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.table-row {
+    text-align: left;
+}
+.first-column {
+    width: 40%;
+    line-height:36px;
+    text-align: left;
+
+}
+.second-column{
+    width: 60%;
+    text-align: left;
+
+}
+
+/*#state-modal tr td:nth-child(1) {
+    width: 50px;
+}
+
+#state-modal tr td:nth-child(2) {
+    text-align: center;
+}
+#state-modal table {
+    table-layout: fixed;
+}
+
+#state-modal tr td {
+    padding: 0;
+    margin: 0;
+}*/
