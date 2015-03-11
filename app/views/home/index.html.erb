@@ -1,0 +1,27 @@
+<div data-ng-app="app.hypocriteApp" data-ng-controller="hypocriteCtrl" id="outer-container">
+  <!-- Directive to draw states -->
+  <div data-draw-states 
+       data-state-boundaries="stateBoundaries"
+       data-data="data"
+       data-modal-function="generateModal">
+  </div>
+  <!-- Added states template here -->
+  <center>
+    <h1 class='main-header'>50 States 50 Hypocrites </h1>
+  </center>
+  <center class='intro-content'>
+    <p> These Americans oppose executive action to help immigrants and yet they live in the USA because their ancestors benefited from gracious immigration policies.  </p>
+    <p>Yeah. It doesn't make any sense to us either. </p>
+  </center>
+  <div style="width: 220px; margin-top: 400px; margin-left: 1100px; position: absolute; font-size: 20px; color :#34495e;"><%= link_to "Add a New Hypocrite to the Map!" , new_hypocrite_path %></div>
+
+  <!--<center>
+    <p id='subtext'> Click on any state to learn more, click anywhere on the map to close</p>
+  </center> -->  
+  <div id="state-modal" ></div>
+  <div>
+    <svg width="1160" height="600" id="statesvg"></svg> 
+  </div>
+
+  <!-- <div each-state></div> -->
+</div>

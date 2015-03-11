@@ -1,6 +1,6 @@
-data <- read.csv("hypocrites_spreadsheet.csv", header=FALSE, sep= ",")
+data <- read.csv("hypocrites_spreadsheet2.csv", header=FALSE, sep= ",")
 data_frame <- as.data.frame(data)
-d <- data_frame[c(3:53),c(1:7)]
+d <- data_frame[c(3:53),c(1:5)]
 
 results = NULL
 for (column in 1:ncol(d)){
