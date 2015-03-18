@@ -14,5 +14,4 @@ class Hypocrite
   validates :twitter, presence: true
   #validates :description, presence: true
   #validates :state_id, presence: true
-  attr_accessible :name, :current_position, :image_path, :descent, :twitter, :description, :state_id
 end

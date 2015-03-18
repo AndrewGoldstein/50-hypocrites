@@ -80,4 +80,9 @@ class HypocritesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+private
+  def hypocrite_params
+    params.require(:hypocrite).permit(:name, :current_position, :image_path, :descent, :twitter, :description, :state_id)
+  end
 end
