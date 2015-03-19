@@ -40,7 +40,7 @@ class HypocritesController < ApplicationController
   # POST /hypocrites
   # POST /hypocrites.json
   def create
-    @hypocrite = Hypocrite.new(params[:hypocrite])
+    @hypocrite = Hypocrite.new(hypocrite_params)
 
     respond_to do |format|
       if @hypocrite.save
@@ -79,5 +79,10 @@ class HypocritesController < ApplicationController
       format.html { redirect_to hypocrites_url }
       format.json { head :no_content }
     end
+  end
+
+private
+  def hypocrite_params
+    params.require(:hypocrite).permit(:name, :current_position, :image_path, :descent, :twitter, :description, :state_id)
   end
 end
