@@ -40,7 +40,7 @@ class HypocritesController < ApplicationController
   # POST /hypocrites
   # POST /hypocrites.json
   def create
-    @hypocrite = Hypocrite.new(params[:hypocrite])
+    @hypocrite = Hypocrite.new(hypocrite_params)
 
     respond_to do |format|
       if @hypocrite.save
