@@ -39197,3 +39197,3001 @@ Processing by HypocritesController#index as JSON
   MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.5461ms)
   MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335831075743 (0.5262ms)
 Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-24 21:52:41 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (24ms)  (pid 5475)
+Compiled application.js  (8ms)  (pid 5475)
+Completed 200 OK in 202ms (Views: 202.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /comments.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /d3.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /angular.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /comments.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /application.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-24 21:52:42 -0700
+Served asset /hypocrites.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled application.js  (10ms)  (pid 5475)
+Completed 200 OK in 188ms (Views: 187.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /comments.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-24 21:53:42 -0700
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled application.js  (11ms)  (pid 5475)
+Completed 200 OK in 200ms (Views: 199.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /comments.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (5ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-24 21:55:06 -0700
+Served asset /application.js - 304 Not Modified (67ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled application.js  (12ms)  (pid 5475)
+Completed 200 OK in 282ms (Views: 281.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (6ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /comments.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-24 21:57:14 -0700
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-24 21:58:11 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled application.js  (8ms)  (pid 5475)
+Completed 200 OK in 177ms (Views: 176.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (5ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /comments.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Served asset /application.js - 304 Not Modified (49ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-24 21:58:12 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (16.5842ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (2.7609ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336783078634 (0.8850ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shame_on_you.png" for 127.0.0.1 at 2015-03-24 21:58:14 -0700
+Served asset /shame_on_you.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled application.js  (10ms)  (pid 5475)
+Completed 200 OK in 334ms (Views: 333.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:39 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:40 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:40 -0700
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:40 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 09:52:40 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 09:52:40 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (108.0003ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (3.7558ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336102652990 (2.3723ms)
+Completed 200 OK in 136ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 09:53:03 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (0ms)  (pid 5475)
+Compiled application.js  (8ms)  (pid 5475)
+Completed 200 OK in 144ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:03 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /comments.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (4ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 09:53:04 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.6111ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.5461ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335836200321 (0.4401ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 09:53:27 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled application.js  (7ms)  (pid 5475)
+Completed 200 OK in 148ms (Views: 148.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocrites.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (5ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Served asset /application.js - 304 Not Modified (47ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 09:53:28 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.5938ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336142238529 (0.4752ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Jon_Tester.jpg" for 127.0.0.1 at 2015-03-25 09:53:29 -0700
+Served asset /Jon_Tester.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/Phyllis_Schafly.jpg" for 127.0.0.1 at 2015-03-25 09:53:32 -0700
+Served asset /Phyllis_Schafly.jpg - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/Phyllis_Schafly.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/assets/Brian_Sandoval.jpg" for 127.0.0.1 at 2015-03-25 09:53:34 -0700
+Served asset /Brian_Sandoval.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/Michael_Burgess.jpg" for 127.0.0.1 at 2015-03-25 09:53:36 -0700
+Served asset /Michael_Burgess.jpg - 200 OK (23ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled application.js  (9ms)  (pid 5475)
+Completed 200 OK in 149ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /comments.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:22 -0700
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:23 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 09:54:23 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 09:54:23 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9620ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.4839ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=337055800699 (0.6249ms)
+Completed 200 OK in 22ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:02:51 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled application.js  (9ms)  (pid 5475)
+Completed 200 OK in 303ms (Views: 301.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /main.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:02:52 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (98.7821ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (78.2671ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335020783755 (1.0011ms)
+Completed 200 OK in 195ms (Views: 194.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:05:51 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (2ms)  (pid 5475)
+Compiled application.js  (10ms)  (pid 5475)
+Completed 200 OK in 225ms (Views: 223.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:05:52 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7172ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.4987ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335483389094 (0.7949ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:07:59 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled application.js  (8ms)  (pid 5475)
+Completed 200 OK in 148ms (Views: 148.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:08:00 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (2.2700ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.4489ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336143611367 (0.4408ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled application.js  (10ms)  (pid 5475)
+Completed 200 OK in 174ms (Views: 174.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Served asset /application.js - 304 Not Modified (59ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:10:52 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (16.9280ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.9691ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=337096475758 (0.7432ms)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:12:35 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (0ms)  (pid 5475)
+Compiled application.js  (10ms)  (pid 5475)
+Completed 200 OK in 163ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.2758ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.5719ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335675401301 (0.4158ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:12:36 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.3380ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335917952893 (0.4191ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled hypocriteApp/services/hypocrites-service.js  (0ms)  (pid 5475)
+Compiled application.js  (9ms)  (pid 5475)
+Completed 200 OK in 203ms (Views: 203.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /comments.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (3ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:13:35 -0700
+Served asset /application.js - 304 Not Modified (63ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (0ms)  (pid 5475)
+Compiled application.js  (7ms)  (pid 5475)
+Completed 200 OK in 139ms (Views: 138.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocrites.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:14:25 -0700
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:14:26 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (15.8410ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.3692ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336245977887 (0.5820ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/services/hypocrites-service.js  (0ms)  (pid 5475)
+Compiled application.js  (10ms)  (pid 5475)
+Completed 200 OK in 283ms (Views: 282.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Served asset /application.js - 304 Not Modified (57ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:21:36 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8471ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.4312ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335362500927 (0.8290ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled application.js  (10ms)  (pid 5475)
+Completed 200 OK in 168ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (3ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:24:18 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.6928ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (3.0260ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336290764099 (0.7331ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:33:51 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (1ms)  (pid 5475)
+Compiled application.js  (11ms)  (pid 5475)
+Completed 200 OK in 351ms (Views: 347.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:33:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:33:51 -0700
+Served asset /comments.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:33:51 -0700
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:33:51 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (4ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Served asset /application.js - 304 Not Modified (53ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:33:52 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8309ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (2.0480ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336405996918 (0.5298ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:35:19 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled application.js  (7ms)  (pid 5475)
+Completed 200 OK in 149ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /scaffolds.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:35:20 -0700
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:35:40 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (16.0251ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.7452ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=337000590985 (0.5128ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (0ms)  (pid 5475)
+Compiled application.js  (8ms)  (pid 5475)
+Completed 200 OK in 162ms (Views: 161.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /comments.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:36:01 -0700
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:38:14 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (16.5420ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.3652ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335795245374 (0.4811ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:40:08 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled application.js  (8ms)  (pid 5475)
+Completed 200 OK in 255ms (Views: 254.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /comments.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (49ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (2ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:40:09 -0700
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:40:12 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.3249ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.7090ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336945335918 (0.5083ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled hypocriteApp/controllers/hypocriteCtrl.js  (0ms)  (pid 5475)
+Compiled application.js  (9ms)  (pid 5475)
+Completed 200 OK in 168ms (Views: 168.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocrites.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 200 OK (6ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:44:16 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.6340ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.3120ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336052101885 (0.4289ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled application.js  (7ms)  (pid 5475)
+Completed 200 OK in 134ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /comments.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (3ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:44:26 -0700
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:44:27 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (17.3361ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.5481ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335811525402 (0.4432ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:28 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.6ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:30 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:32 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:34 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:36 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:38 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:41 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:43 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:45 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/null" for 127.0.0.1 at 2015-03-25 10:44:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/null"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:50:13 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled hypocriteApp/directives/drawStates.js  (1ms)  (pid 5475)
+Compiled application.js  (11ms)  (pid 5475)
+Completed 200 OK in 259ms (Views: 258.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocrites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /main.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /comments.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (5ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:50:14 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7157ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.3261ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=336485442296 (0.5329ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Tom_Tancredo.jpg" for 127.0.0.1 at 2015-03-25 10:50:15 -0700
+Served asset /Tom_Tancredo.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/Sam_Brownback.jpg" for 127.0.0.1 at 2015-03-25 10:50:16 -0700
+Served asset /Sam_Brownback.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/John_Barrasso.jpg" for 127.0.0.1 at 2015-03-25 10:50:18 -0700
+Served asset /John_Barrasso.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/Rick_Santelli.jpg" for 127.0.0.1 at 2015-03-25 10:50:21 -0700
+Served asset /Rick_Santelli.jpg - 200 OK (5ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:50:32 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.5512ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335638111531 (0.4530ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled hypocriteApp/directives/drawStates.js  (0ms)  (pid 5475)
+Compiled application.js  (9ms)  (pid 5475)
+Completed 200 OK in 191ms (Views: 190.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hypocrites.css?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocrites.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /d3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /angular-rails-templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/app.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocriteApp/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/templates/states.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocriteApp/templates/states.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hypocriteApp/directives/drawStates.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocriteApp/directives/drawStates.js - 200 OK (1ms)
+
+
+Started GET "/assets/hypocriteApp/templates/test.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocriteApp/templates/test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/directives/eachState.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocriteApp/directives/eachState.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/modules/hypocriteApp.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocriteApp/modules/hypocriteApp.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/controllers/hypocriteCtrl.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocriteApp/controllers/hypocriteCtrl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocrites.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocrites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hypocriteApp/services/hypocrites-service.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /hypocriteApp/services/hypocrites-service.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-25 10:55:16 -0700
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started GET "/hypocrites.json" for 127.0.0.1 at 2015-03-25 10:55:17 -0700
+Processing by HypocritesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.5629ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=fifty_hypes collection=hypocrites selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (1.3511ms)
+  MOPED: 127.0.0.1:27017 GET_MORE     database=fifty_hypes collection=hypocrites limit=0 cursor_id=335994927278 (0.5436ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Phyllis_Schafly.jpg" for 127.0.0.1 at 2015-03-25 10:55:20 -0700
+Served asset /Phyllis_Schafly.jpg - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/Phyllis_Schafly.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewyu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewyu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/assets/Tom_Tancredo.jpg" for 127.0.0.1 at 2015-03-25 10:55:21 -0700
+Served asset /Tom_Tancredo.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/Dan_Coats.jpg" for 127.0.0.1 at 2015-03-25 10:55:23 -0700
+Served asset /Dan_Coats.jpg - 200 OK (8ms)

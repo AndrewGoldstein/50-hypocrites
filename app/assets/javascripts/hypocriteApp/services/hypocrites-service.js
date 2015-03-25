@@ -13,12 +13,11 @@ hypocriteApp.service('HypocritesService', ['$http', '$q', function($http, $q) {
                     d.reject(data);
                 }
             }).error(
-            
+
             function error(data, status, headers, config) {
                 d.reject(data);
             });
 
         return d.promise;
     };
-
 }]);
