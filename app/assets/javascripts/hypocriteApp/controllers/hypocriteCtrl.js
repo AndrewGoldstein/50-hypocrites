@@ -10,14 +10,11 @@ angular.module('app.hypocriteApp')
   	function success(data){
   		
   		$scope.hypocrites = data;
-
+  		console.log("----------------SERVICE HIT!!!")
   		console.log($scope.hypocrites[0])
-  		console.log($scope.hypocrites[1])
   	},
   	function error(data){
-
   	}
-
  	);
 
 	// TODO: Data is statically defined for now?
@@ -96,6 +93,7 @@ angular.module('app.hypocriteApp')
 	["OH", "FL", "MN", "DC", "NM", "MA", "AZ", "CA", "CT", "MO", "CO", "MI", "LS", "TN", "MS", "PA", "AL", "IL", "NV", "AK", "SD", "ND", "KS", "WY", "NY", "NC", "VA", "TX", "GA", "IN", "AR", "RI", "SC", "HI", "WA", "OR", "ID", "MT", "KY", "MD", "DE", "NJ", "OK", "NE", "UT", "WV", "ME", "VT", "NH", "WI", "IA"]
 		.forEach(function(state){ 
 			
+			console.log("-++++++ looping")
       	var r = Math.round(255 * Math.random());
       	var g = Math.round(255 * Math.random());
       	var b = Math.round(255 * Math.random());
@@ -116,8 +114,5 @@ angular.module('app.hypocriteApp')
 	
       i = i + 1;
 
-		});
-	
-	console.log("------------------------")
-	console.log($scope.dummy)
+		})
 });
