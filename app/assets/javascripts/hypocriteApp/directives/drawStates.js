@@ -16,7 +16,7 @@ hypocriteApp.directive('drawStates', function () {
       $scope.open          = false;
       $scope.twitterLink   = "<a href='https://twitter.com/intent/tweet?screen_name=50hypocrites&text=How%20could%20you%20not%20support%20immigration%20reform%3F%20bit.ly%2F1Brm2Ot' class='twitter-mention-button'>Tweet to @50hypocrites</a>";
       $scope.twitterScript = "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>";
-      $scope.twitterLoad = "<script> twttr.widgets.load()</script>";
+      $scope.twitterLoad   = "<script> twttr.widgets.load()</script>";
 
       $scope.generateModal = function(stateData) {
         // If no image, use default. Refactor this
@@ -68,6 +68,7 @@ hypocriteApp.directive('drawStates', function () {
           }
         }
         
+        // DRAWS STATE BASED ON STATE BOUNDARIES DEFINED IN CONTROLLER
 
         d3.select(mapId).selectAll(".state")
           .data($scope.stateBoundaries)
